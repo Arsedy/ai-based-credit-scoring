@@ -4,7 +4,7 @@ import pandas as pd
 
 
 def load_model():
-    model = joblib.load('credit_score_model.joblib')
+    model = joblib.load('credit_score_model.pkl')
     return model
 
 
